@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,GAAG,AAAA,CACC,MAAM,CAAE,KAAK,CACb,KAAK,CAAE,KAAK,CACf",
     "sources": [
-        "../../quote-testimonial/scss/style.scss"
+        "../scss/style.scss"
     ],
     "names": [],
     "file": "style.min.css"
