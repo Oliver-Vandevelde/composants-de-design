@@ -1,0 +1,43 @@
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e5e5e5;
+  width: 75%;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: sans-serif;
+}
+
+.pagination li {
+  padding: 5px;
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  margin-top: 20px;
+  line-height: 35px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.pagination .gris {
+  background-color: #3b444f;
+  color: white;
+}
+
+.pagination .bleu {
+  background-color: #129fea;
+  color: white;
+}
+
+.pagination .blanc {
+  background-color: #e5e5e5;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

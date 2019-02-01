@@ -1,0 +1,46 @@
+//@import 'footer-social.scss'
+html {
+    height: 100%;
+    footer{
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+}
+/*.footer_social{
+    color: #939089;
+    background-color: #f9f3e8 ;
+    width: 100%;
+    .gauche{
+        text-align: center;
+    }
+    .footer-social{
+        display:flex;
+        flex-direction:row-reverse;
+        text-decoration: none;
+    }
+}*/
+.footer-social { 
+    width: 100%;
+    height : 40px;
+    padding : 0;
+    margin: 0;
+    font-style: sans serifs;
+    background-color :#f9f3e8;
+    color:#939089;
+    list-style-type : none;
+    .gauche{
+        padding: 10px 15px;  
+        font-size: 15px;
+        line-height: 30px;
+        display: inline;
+    }
+    .droite {
+        float : right;
+        line-height : 30px;
+        padding: 5px 20px 5px 5px;
+        display: inline;
+        font-size: 15px;
+    }
+}

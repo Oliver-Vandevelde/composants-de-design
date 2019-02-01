@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Modum-Regular';
+    src: url('../font/Modum-Regular-webfont.woff2') format('woff2'),
+        url('../font/Modum-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    /*margin-top: 500px;
+
+    background-size: 900px;
+    background-color: black;
+    background-image:url(../img/hero-image.jpg);
+    background-position:50% 75%; 
+    background-repeat:no-repeat;*/ 
+    background-color: black;
+    .flex{
+        
+        img{
+            height: 900px;
+        }
+        h1{
+        }
+        p{
+            font-family: sans-serif;
+        }
+        a{
+            background-color: yellow;
+            width: 100px;
+            height: 35px;
+            line-height: 35px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-family: sans-serif;
+        }
+    }
+}
