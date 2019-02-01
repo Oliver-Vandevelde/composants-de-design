@@ -7,31 +7,31 @@
 
 }
 body{
-    /*margin-top: 500px;
-
     background-size: 900px;
     background-color: black;
     background-image:url(../img/hero-image.jpg);
-    background-position:50% 75%; 
-    background-repeat:no-repeat;*/ 
-    background-color: black;
+    background-position:center top 25%; 
+    background-repeat:no-repeat; 
     .flex{
-        
-        img{
-            height: 900px;
-        }
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width:  275px;
+        margin-left: 200px;
         h1{
+            font-size: 35px;
+            font-family: 'Modum-Regular';
         }
         p{
             font-family: sans-serif;
+            font-size: 15px;
         }
         a{
+            height: 40px;
             background-color: yellow;
-            width: 100px;
-            height: 35px;
-            line-height: 35px;
             font-weight: bold;
             text-align: center;
+            line-height: 40px;
             text-decoration: none;
             color: black;
             font-family: sans-serif;
